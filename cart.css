@@ -1,0 +1,106 @@
+body {
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.product li {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+input:focus,
+button:focus,
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #fff;
+}
+.table tr,
+.table tr td {
+  vertical-align: middle;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+.button-container .form-control {
+  max-width: 80px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 5px;
+}
+#myTable .form-control {
+  width: auto;
+  display: inline-block;
+}
+.cart-qty-plus,
+.cart-qty-minus {
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.cart-qty-plus:hover,
+.cart-qty-minus:hover {
+  background-color: #5161ce;
+  color: #fff;
+}
+.img-prdct {
+  width: 50px;
+  height: 50px;
+  background-color: #5161ce;
+  border-radius: 4px;
+}
+.img-prdct img {
+  width: 100%;
+}
+thead tr {
+  background-color: #343a40;
+  color: white;
+}
+tbody td {
+  color: white;
+}
+tfoot td {
+  color: white;
+}
+.img-prdct {
+  width: 100px !important;
+  height: 100px !important;
+}
+.cart-qty-plus {
+  background-color: #00a5e8;
+  color: white;
+  font-weight: 600;
+}
+.cart-qty-minus {
+  background-color: #00a5e8;
+  color: white;
+  font-weight: 600;
+}

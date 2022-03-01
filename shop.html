@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="shop.css">
+    <script type="text/javascript" src="cart.js"></script>
+    <title>Shop</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artist.html">Meet our Artists!</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li style="float: right;"><a href="register.html">Sign Up</a></li>
+            <li class= "detail" style="float: right;"><a href="login.html">Login</a>
+        </ul>
+    </header>
+    </div>
+    <div class="despic">
+        <img src="music.jpg" alt="man playing music">
+    </div>
+    <div class="description">
+        <h3>Listen to Indie Artists!</h3>
+        <p>Indie artists are worth listening to! Music wouldn't be complete if there were no indie artists to create them. <br>
+        Here at Piofy we intend to influence people from all sorts of culture to listen to indie artists and their music.</p>
+    </div>
+    <button a href="#">₱50/month</button> <button a href="#">Start free trial</button>
+    <h2 class="artsec">Artist Section</h2>
+    <div class="elp" style="max-width:500px">
+        <img class="mySlides" src="sarah.jpeg" style="width:100%">
+        <img class="mySlides" src="sundial.jpg" style="width:100%">
+        <img class="mySlides" src="sam.jpeg" style="width:100%">
+        <img class="mySlides" src="anthony.jpg" style="width:100%">
+        <img class="mySlides" src="jesse.jpeg" style="width:100%">
+      </div>
+    <script>
+        var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+    </script>
+    <div class="card top" id="item1">
+        <p><img src="fallforu.jpeg" alt="fall for you"> Sarah Kang & Jesse Barrera - Fall for You <button class="right" onclick="addToCart(item1)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="fallforyou.mp3"></audio>
+    </div>
+    <div class="card" id="item2">
+        <p><img src="urtext.jpeg" alt="your text"> sundial - your text <button class="right" onclick="addToCart(item2)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="yourtext.mp3"></audio>
+    </div>
+    <div class="card" id="item3">
+        <p><img src="canihavethedaywithu.jpeg" alt="can i have the day with you"> Sam Ock, Michelle - Can I Have the Day With You <button class="right" onclick="addToCart(item3)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="canihavethedaywithyou.mp3"></audio>
+    </div>
+    <div class="card" id="item4">
+        <p><img src="obvious.jpeg" alt="obvious"> Jesse Barrera, Jeremy Passion - Obvious <button class="right" onclick="addToCart(item4)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="obvious.mp3"></audio>
+    </div>
+    <div class="card" id="item5">
+        <p><img src="loveletter.jpg" alt="love letter"> Anthony Lazaro & Sarah Kang - Love Letter <button class="right" onclick="addToCart(item5)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="loveletter.mp3"></audio>
+    </div>
+    <div class="card" id="item6">
+        <p><img src="cheeze.jpeg" alt="cheeze"> Sarah Kang feat. Andrew Kang - cheeze <button class="right" onclick="addToCart(item6)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="cheeze.mp3"></audio>
+    </div>
+    <div class="card" id="item7">
+        <p><img src="summer.jpeg" alt="summer is for falling in love"> Sarah Kang - Summer Is for Falling in Love <button class="right" onclick="addToCart(item7)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="summerisforfalling.mp3"></audio>
+    </div>
+    <h2 class="sec">Lo-fi Section</h2>
+    <div class="gif">
+        <img src="lofi.gif" alt="lofi">
+    </div>
+    <div class="card" id="item8">
+        <p><img src="ikigai.jpg" alt="ikigai"> idealism - ikigai <button class="right" onclick="addToCart(item8)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="ikigai.mp3"></audio>
+    </div>
+    <div class="card" id="item9">
+        <p><img src="stormy.jpg" alt="stormy weather"> rei - stormy weather <button class="right" onclick="addToCart(item9)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="stormyweather.mp3"></audio>
+    </div>
+    <div class="card" id="item10">
+        <p><img src="joy.jpg" alt="joy"> blackguyrandy - joy <button class="right" onclick="addToCart(item10)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="joy.mp3"></audio>
+    </div>
+    <div class="card" id="item11">
+        <p><img src="daydreaming.jpg" alt="day dreaming"> bubble tea - day dreaming <button class="right" onclick="addToCart(item11)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="daydreaming.mp3"></audio>
+    </div>
+    <div class="card" id="item12">
+        <p><img src="further.jpg" alt="further"> h.1 - further <button class="right" onclick="addToCart(item12)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="further.mp3"></audio>
+    </div>
+    <div class="card" id="item13">
+        <p><img src="alwaysinreverse.jpeg" alt="always in reverse"> city girl - always in reverse <button class="right" onclick="addToCart(item13)"><a href="cart.html">Add to Cart</a></button></a>></p>
+        <audio controls src="alwaysinreverse.mp3"></audio>
+    </div>
+    <div class="card" id="item14">
+        <p><img src="midnight.jpeg" alt="midnight"> jinsang - midnight <button class="right" onclick="addToCart(item14)"><a href="cart.html">Add to Cart</a></button></a></p>
+        <audio controls src="midnight.mp3"></audio>
+    </div>
+    <footer class="footer">
+        <p>&copy; Piofy. 2022 All Rights Reserved</p>
+    </footer>
+</body>
+</html>

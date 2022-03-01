@@ -1,0 +1,97 @@
+body {
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.description {
+  color: white;
+  padding-top: 10rem;
+  margin-left: 6rem;
+}
+button {
+  margin-left: 13rem;
+  margin-top: 10px;
+}
+.button:hover {
+  box-shadow: 0 0 5px 5px;
+}
+.artsec {
+  margin-top: 8rem;
+  margin-left: 15rem;
+  color: white;
+}
+.despic {
+  float: right;
+  padding-top: 4rem;
+  padding-right: 16rem;
+}
+.my-slides {
+  display: none;
+}
+.elp {
+  /* image auto slideshow */
+  float: right;
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+.top {
+  margin-top: 4rem;
+}
+.card {
+  margin-left: 3rem;
+  margin-right: 51rem;
+  margin-bottom: 1rem;
+}
+.card img {
+  width: 50px;
+  height: 50px;
+}
+.card p {
+  margin-bottom: 0px;
+}
+.sec {
+  margin-top: 4rem;
+  margin-left: 15rem;
+  color: white;
+}
+.right {
+  float: right;
+}
+.gif img {
+  float: right;
+  width: 640px;
+  height: 404px;
+  margin-right: 8rem;
+  margin-top: 5rem;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  margin-top: 15rem;
+  padding-bottom: 20px;
+}
